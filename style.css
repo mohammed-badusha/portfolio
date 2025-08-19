@@ -1,0 +1,67 @@
+:root {
+            --primary-color: #6366f1;
+            --secondary-color: #8b5cf6;
+            --accent-color: #06b6d4;
+            --dark-bg: #0f172a;
+            --card-bg: #1e293b;
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --gradient-1: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+            --gradient-2: linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%);
+        }
+
+        body{
+            height: 100vh;
+            background-color: var(--dark-bg);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .gradient{
+            color:rgb(132, 12, 230);
+        }
+
+       .card-bg{
+        background-color: var(--dark-bg);
+       } 
+
+       .nav-item>a{
+        color: var(--text-secondary);
+        transition: transform .5s ease;
+       }
+
+       .nav-item>a:hover{
+        color: var(--text-primary);
+        transform: translateY(-5px);
+       }
+      
+.hero{
+    color: var(--text-secondary);
+}
+       
+ .work{
+    background-color:rgb(132, 12, 230);
+ }   
+
+
+ .work:hover{
+    color: white;
+    background-color:rgb(132, 12, 230);
+    box-shadow: 2px 2px 5px white;
+ }
+img{
+    transition: transform .5s ease;
+}
+
+img:hover{
+transform: scale(1.05);
+}
+
+.about-gradient{
+    background-color: var(--card-bg);
+}
+.over{
+    transition: transform .5s ease;
+}
+.over:hover{
+    transform:translateY(-5px);
+}
