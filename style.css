@@ -176,9 +176,9 @@ transform: scale(1.20);
 }
 
 .footer-section {
-    background-color: #1e293b; /* Dark background */
-         color: var(--text-secondary);     /* Light gray text */
-    padding: 15px 0;          /* Spacing */
+    background-color: #1e293b; 
+         color: var(--text-secondary);     
+    padding: 15px 0;         
     font-size: 14px;
   
 }
