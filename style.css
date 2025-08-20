@@ -65,3 +65,130 @@ transform: scale(1.05);
 .over:hover{
     transform:translateY(-5px);
 }
+
+.project-card {
+  background: var(--card-bg);
+  border-radius: 12px;
+ 
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.6);
+}
+
+.project-icon {
+  width: 100%;
+  height: 230px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-primary);
+}
+
+.gradient-1 {
+  background: var(--gradient-2);
+}
+.gradient-2 {
+  background: var(--card-bg);
+}
+
+.tech-badge {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.08);
+  color:var(--primary-color);
+  font-size: 13px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  margin: 2px;
+}
+
+.project-link {
+  display: inline-block;
+  margin-right: 15px;
+  font-size: 14px;
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+font-size: 17px;
+transition: transform 0.5s ease;
+}
+.project-link:hover {
+  color: var(--secondary-color);
+  transform: translateX(5px);
+}
+
+.font-size{
+    font-size: 50px;
+}
+
+
+
+.contact-item-email{
+      color: var(--text-secondary);
+}
+
+
+.contact-item-email:hover{
+    color: var(--primary-color);
+}
+
+.contact-item-phone{
+      color: var(--text-secondary);
+}
+
+
+.contact-item-phone:hover{
+    color: var(--primary-color);
+}
+
+
+.contact-item-location{
+      color: var(--text-secondary);
+}
+
+
+.contact-item-location:hover{
+    color: var(--primary-color);
+}
+
+
+
+.fs{
+    font-size: 40px;
+}
+
+.bor{
+color: var(--secondary-color);
+transition: transform 0.5s ease;
+}
+
+.bor:hover{
+transform: scale(1.20);
+}
+.footer{
+    background-color: var(--text-secondary);
+    
+}
+
+.footer-section {
+    background-color: #1e293b; /* Dark background */
+         color: var(--text-secondary);     /* Light gray text */
+    padding: 15px 0;          /* Spacing */
+    font-size: 14px;
+  
+}
+
+.footer-section p {
+    margin: 0;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
+
+.fss{
+    font-size: 18px;
+}

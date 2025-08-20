@@ -2,181 +2,256 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <!-- bootstrap cdn link -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-    <!-- bootstrap js link -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
-        crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- custom css link -->
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <!-- bootstrap cdn link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <!-- bootstrap js link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- custom css link -->
+  <link rel="stylesheet" href="./style.css">
 </head>
 
-<body>
-    <!-- nav section start -->
-    <nav class="navbar navbar-expand-lg card-bg border-bottom border-secondary">
-        <div class="container">
-            <a class="navbar-brand fw-bold  gradient" href="#">MB</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link " aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link  " href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link  " href="#">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link  " href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <!-- nav section end -->
-
-    <!-- herosection start -->
-    <div class="container vh-100 ">
-        <div class="row p-4 mt-5 hero">
-            <div class="col-lg-7 col-md-7 col-12">
-                <h2 class=" fw-bold display-5  gradient mb-3">MOHAMMED BADUSHA</h2>
-                <h3 class="mb-3 fs-2 ">Aspiring Fullstack Developer</h3>
-                <p class="lh-lg mb-5 ">
-                    Passionate computer science student with a love for creating innovative web solutions. Currently
-                    mastering modern technologies to build the next generation of digital experiences.
-                </p>
-                <button class="btn btn-md rounded-pill work ">View my work</button>
-                <button class="btn btn-md work ms-3 rounded-pill">Get in touch
-
-                </button>
-            </div>
-            <div class="col-lg-5 col-md-5 col-12  d-flex justify-content-center align-item-center">
-                <div class=" w-50 h-50">
-                    <img class="w-100 rounded-circle " src="./images/kakka.jpg" alt="">
-
-                </div>
-            </div>
-        </div>
-
+<body class="d-flex flex-column min-vh-100">
+  <!-- nav section start -->
+  <nav class="navbar navbar-expand-lg card-bg border-bottom border-secondary">
+    <div class="container">
+      <a class="navbar-brand fw-bold gradient" href="#">MB</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" aria-current="page" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+      </div>
     </div>
-    <!-- herosection end -->
+  </nav>
+  <!-- nav section end -->
 
-    <!-- about me section start -->
-    <h2 class="gradient fw-bold text-center">bout me</h2>
-    <div class="container over border  text-white p-5 about-gradient lh-lg rounded-4">
-<p>I'm a dedicated computer science student with a passion for fullstack development. My journey in programming began with curiosity and has evolved into a deep commitment to creating meaningful digital solutions.
-</p>
-<p>Currently pursuing my degree while building practical experience through personal projects and internships. I believe in the power of technology to solve real-world problems and create positive impact.
-</p>
-<p>When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or collaborating with fellow developers on exciting challenges.
-</p>
+  <!-- herosection start -->
+  <div class="container vh-100">
+    <div class="row p-4 mt-5 hero">
+      <div class="col-lg-7 col-md-7 col-12">
+        <h2 class="fw-bold display-5 gradient mb-3">MOHAMMED BADUSHA</h2>
+        <h3 class="mb-3 fs-2">Aspiring Fullstack Developer</h3>
+        <p class="lh-lg mb-5">
+          Passionate computer science student with a love for creating innovative web solutions. Currently
+          mastering modern technologies to build the next generation of digital experiences.
+        </p>
+        <button class="btn btn-md rounded-pill work">View my work</button>
+        <button class="btn btn-md work ms-3 rounded-pill">Get in touch</button>
+      </div>
+      <div class="col-lg-5 col-md-5 col-12 d-flex justify-content-center align-item-center">
+        <div class="w-50 h-50">
+          <img class="w-100 rounded-circle" src="./images/kakka.jpg" alt="">
+        </div>
+      </div>
     </div>
+  </div>
+  <!-- herosection end -->
 
-    <!-- about me section end -->
+  <!-- about me section start -->
+  <h2 class="gradient fw-bold text-center">About me</h2>
+  <div class="container over border text-white p-5 about-gradient lh-lg rounded-4">
+    <p>I'm a dedicated computer science student with a passion for fullstack development. My journey in programming
+      began with curiosity and has evolved into a deep commitment to creating meaningful digital solutions.</p>
+    <p>Currently pursuing my degree while building practical experience through personal projects and internships. I
+      believe in the power of technology to solve real-world problems and create positive impact.</p>
+    <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or
+      collaborating with fellow developers on exciting challenges.</p>
+  </div>
+  <!-- about me section end -->
 
-    <!-- Technical skill section start -->
-<!-- frontend start -->
-    <h2 class="gradient fw-bold text-center mt-5 ">Technical Skills</h2>
-<div class="row p-5 gap-3 gap-lg-0 gap-md-0">
-<div class="col-12 col-lg-3  col-md-6 ">
-<div class="card  about-gradient over"  >
-     
-  <div class="card-body p-4">
- <p class="d-flex justify-content-center align-item-center">
-    <i class="fa-brands fa-html5 gradient display-5"></i>
- </p>
- <h5 class="text-center text-white">Frontend Development</h5>
- <p class="text-center text-white">HTML5, CSS3, JavaScript, React, Bootstrap</p>
-<br class="d-none d-lg-none d-md-block" >
- <div class="progress " role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 7px;">
-  <div class="progress-bar w-75 work "></div>
- 
-</div>
-    
-</div>
-</div>
-</div>
-<!-- frontend end -->
+  <!-- Technical skill section start -->
+  <h2 class="gradient fw-bold text-center mt-5">Technical Skills</h2>
+  <div class="row p-5 gap-3 gap-lg-0 gap-md-0">
+    <!-- frontend start -->
+    <div class="col-12 col-lg-3 col-md-6">
+      <div class="card about-gradient over">
+        <div class="card-body p-4">
+          <p class="d-flex justify-content-center align-item-center">
+            <i class="fa-brands fa-html5 gradient display-5"></i>
+          </p>
+          <h5 class="text-center text-white">Frontend Development</h5>
+          <p class="text-center text-white">HTML5, CSS3, JavaScript, React, Bootstrap</p>
+          <br class="d-none d-lg-none d-md-block">
+          <div class="progress" role="progressbar" style="height: 7px;">
+            <div class="progress-bar w-75 work"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- frontend end -->
 
-<!-- backend start -->
-<div class="col-12 col-lg-3  col-md-6 ">
-<div class="card w-auto about-gradient over" >
-  <div class="card-body p-4">
-     <p class="d-flex justify-content-center align-item-center">
-    <i class="fa-solid fa-server gradient display-5"></i>
- </p>
- <h5 class="text-center text-white">Backend Development</h5>
- <p class="text-center text-white">Node.js, Python, Express,<br> MongoDB</p>
+    <!-- backend start -->
+    <div class="col-12 col-lg-3 col-md-6">
+      <div class="card w-auto about-gradient over">
+        <div class="card-body p-4">
+          <p class="d-flex justify-content-center align-item-center">
+            <i class="fa-solid fa-server gradient display-5"></i>
+          </p>
+          <h5 class="text-center text-white">Backend Development</h5>
+          <p class="text-center text-white">Node.js, Python, Express,<br> MongoDB</p>
+          <div class="progress" role="progressbar" style="height: 7px;">
+            <div class="progress-bar w-75 work"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- backend end -->
 
- <div class="progress " role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 7px;">
-  <div class="progress-bar w-75 work "></div>
-</div>
-   
-</div>
-</div>
-</div>
-<!-- backend end -->
+    <!-- database start -->
+    <div class="col-12 col-lg-3 col-md-6 mt-md-4 mt-lg-0">
+      <div class="card w-auto about-gradient over">
+        <div class="card-body p-4">
+          <p class="d-flex justify-content-center align-item-center">
+            <i class="fa-solid fa-database gradient display-5"></i>
+          </p>
+          <h5 class="text-center text-white">Database Management</h5>
+          <p class="text-center text-white">MySQL, PostgreSQL, MongoDB</p>
+          <div class="progress" role="progressbar" style="height: 7px;">
+            <div class="progress-bar w-75 work"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- database end -->
 
-<!-- database start -->
-<div class="col-12 col-lg-3  col-md-6 mt-md-4 mt-lg-0">
-<div class="card w-auto about-gradient over" >
-  <div class="card-body p-4">
-     <p class="d-flex justify-content-center align-item-center">
-   <i class="fa-solid fa-database gradient display-5"></i>
- </p>
- <h5 class="text-center text-white">Database Management</h5>
- <p class="text-center text-white">MySQL, PostgreSQL, MongoDB </p>
-<br>
- <div class="progress " role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 7px;">
-  <div class="progress-bar w-75 work "></div>
-</div>
-   
-   
-</div>
-</div>
-</div>
-<!-- database end -->
+    <!-- version control start -->
+    <div class="col-12 col-lg-3 col-md-6 mt-md-4 mt-lg-0">
+      <div class="card w-auto about-gradient over">
+        <div class="card-body p-4">
+          <p class="d-flex justify-content-center align-item-center">
+            <i class="fa-solid fa-code-merge gradient display-5"></i>
+          </p>
+          <h5 class="text-center text-white">Version Control</h5>
+          <p class="text-center text-white">Git, GitHub, Collaborative<br>Development</p>
+          <div class="progress" role="progressbar" style="height: 7px;">
+            <div class="progress-bar w-75 work"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- version control end -->
+  </div>
+  <!-- Technical skill section end -->
 
-<!-- version start -->
-<div class="col-12 col-lg-3  col-md-6 mt-md-4 mt-lg-0">
-<div class="card w-auto about-gradient over" >
-     
-  <div class="card-body p-4">
+  <!-- featured projects start -->
+  <div class="container py-5">
+    <h2 class="text-center section-title mb-5 fw-bold gradient">Featured Projects</h2>
+    <div class="row g-4">
 
-     <p class="d-flex justify-content-center align-item-center">
-   <i class="fa-solid fa-code-merge gradient display-5"></i>
- </p>
- <h5 class="text-center text-white">Version Control</h5>
- <p class="text-center text-white"> Git, GitHub, Collaborative<br>Development</p>
+      <!-- Project 1 -->
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="project-card">
+          <div class="project-icon gradient-1">
+            <i class="fa-solid fa-cart-shopping font-size"></i>
+          </div>
+          <div class="p-3">
+            <h5 class="mt-3 text-white fw-bold">E-Commerce Platform</h5>
+            <p class="hero">A full-featured e-commerce platform with user authentication, product catalog, shopping
+              cart, and payment integration.</p>
+            <div class="mb-3">
+              <span class="tech-badge">React</span>
+              <span class="tech-badge">Node.js</span>
+              <span class="tech-badge">MongoDB</span>
+              <span class="tech-badge">Stripe</span>
+            </div>
+            <a href="#" class="project-link fw-semibold ms-2">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+            <a href="#" class="project-link fw-semibold"><i class="fa-brands fa-github"></i> GitHub</a>
+          </div>
+        </div>
+      </div>
 
- <div class="progress " role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 7px;">
-  <div class="progress-bar w-75 work "></div>
-</div>
-   
-</div>
-</div>
-</div>
-<!-- version end -->
-</div>
-    <!-- Technical skill section end -->
+      <!-- Project 2 -->
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="project-card">
+          <div class="project-icon gradient-1">
+            <i class="fa-solid fa-list-check font-size"></i>
+          </div>
+          <div class="p-3">
+            <h5 class="mt-3 text-white fw-bold">Task Management App</h5>
+            <p class="hero">A collaborative task management application with real-time updates, team collaboration
+              features, and project tracking.</p>
+            <div class="mb-3">
+              <span class="tech-badge">Vue.js</span>
+              <span class="tech-badge">Express</span>
+              <span class="tech-badge">Socket.io</span>
+              <span class="tech-badge">PostgreSQL</span>
+            </div>
+            <a href="#" class="project-link fw-semibold ms-2">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+            <a href="#" class="project-link fw-semibold"><i class="fa-brands fa-github"></i> GitHub</a>
+          </div>
+        </div>
+      </div>
 
+      <!-- Project 3 -->
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="project-card">
+          <div class="project-icon gradient-1">
+            <i class="fa-solid fa-chart-line font-size"></i>
+          </div>
+          <div class="p-3">
+            <h5 class="mt-3 text-white fw-bold">Data Visualization Dashboard</h5>
+            <p class="hero">A collaborative task management application with real-time updates, team collaboration
+              features, and project tracking.</p>
+            <div class="mb-3">
+              <span class="tech-badge">Python</span>
+              <span class="tech-badge">Flask</span>
+              <span class="tech-badge">D3.js</span>
+              <span class="tech-badge">MySQL</span>
+            </div>
+            <a href="#" class="project-link fw-semibold ms-2">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+            <a href="#" class="project-link fw-semibold"><i class="fa-brands fa-github"></i> GitHub</a>
+          </div>
+        </div>
+      </div>
 
+    </div> <!-- ✅ Closed .row -->
+  </div> <!-- ✅ Closed .container -->
+  <!-- featured projects end -->
+
+  <!-- get in touch -->
+  <h2 class="gradient fw-bold text-center py-5">Get In Touch</h2>
+  <div class="container over border w-75 text-white p-5 about-gradient lh-lg rounded-4">
+    <p class="fs-5">I'm always open to discussing new opportunities, interesting projects, or just having a chat about
+      technology. Feel free to reach out!</p>
+    <div class="container py-4">
+      <div class="d-flex flex-column flex-md-row justify-content-evenly">
+        <span class="contact-item-email"><i class="fa-solid fa-envelope"></i> alex.johnson@email.com</span>
+        <span class="contact-item-phone"><i class="fa-solid fa-phone"></i> +1 (555) 123-4567</span>
+        <span class="contact-item-location"><i class="fa-solid fa-location-dot"></i> San Francisco, CA</span>
+      </div>
+    </div>
+    <p class="fs d-flex justify-content-center gap-3">
+      <i class="fa-brands fa-linkedin bor"></i>
+      <i class="fa-brands fa-github bor"></i>
+      <i class="fa-brands fa-twitter bor"></i>
+      <i class="fa-solid fa-envelope bor"></i>
+    </p>
+  </div>
+
+  <!-- footer -->
+  <footer class="footer-section text-center mt-5 p-5">
+    <div class="container">
+      <p class="mb-0 fss">© 2025 Alex Johnson. All rights reserved. Built with passion and modern web technologies.</p>
+    </div>
+  </footer>
 
 </body>
 
